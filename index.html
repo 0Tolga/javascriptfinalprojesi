@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Film Arama</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Film Arama Sitesi</h1>
+<p>OMDb API kullanılarak yapılmıştır</p>
+
+<input id="searchInput" placeholder="Film adı yaz">
+<button id="searchBtn">Ara</button>
+
+<select id="sortSelect">
+  <option value="">Sırala</option>
+  <option value="az">A-Z</option>
+  <option value="za">Z-A</option>
+</select>
+
+<button id="themeBtn">Tema</button>
+
+<p id="status"></p>
+<p id="stats"></p>
+
+<div id="movieList" class="movie-list"></div>
+
+<!-- Detay Kartı -->
+<div id="detail" class="info-card"></div>
+
+<!-- Alt Kartlar -->
+<div class="bottom-cards">
+
+  <div class="info-card">
+    <h3>Hakkımızda</h3>
+    <p>KBÜ JAVASCRİPT FİNAL PROJESİ</p>
+  </div>
+
+  <div class="info-card">
+    <h3>İletişim</h3>
+    <p>Email: 2505903352@ogrenci.karabuk.edu.tr</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
